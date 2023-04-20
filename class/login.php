@@ -11,7 +11,7 @@ class Login extends Database{
           header("Location: home.php");
           exit;
       }else{
-          echo "essa porra na existe meu nobe";
+          echo "<h3> Senha Incorreta Meu Nobre🗿🍷</h3>";
       }
       
       
