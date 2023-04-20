@@ -11,7 +11,7 @@ class Login extends Database{
           header("Location: home.php");
           exit;
       }else{
-          echo "<h3> Senha Incorreta Meu Nobre🗿🍷</h3>";
+          echo "    <div class="incorrect"> Senha Incorreta Meu Nobre 🍷🗿 </div>";
       }
       
       
