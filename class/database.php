@@ -2,7 +2,8 @@
 
 class Database{
    protected $conn;
-   
+   //Por favor não delete meu banco de dados kkkk
+   //please don't delete my database
    public function __construct(){
        $host = "containers-us-west-46.railway.app";
        $user = "root";
