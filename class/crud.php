@@ -17,7 +17,7 @@ class Crud extends Database{
      
   }
   public function view($user){
-      $sql = "SELECT * FROM contacts WHERE user='$user';";
+      $sql = "SELECT * FROM contacts WHERE user='$user' ORDER BY name ASC;";
       $query = mysqli_query($this->getConn(),$sql);
       while($line = mysqli_fetch_assoc($query)){
          $name = $line["name"];
@@ -48,7 +48,7 @@ class Crud extends Database{
    }
   
    public function viewDelete($user){
-      $sql = "SELECT * FROM contacts WHERE user='$user';";
+      $sql = "SELECT * FROM contacts WHERE user='$user' ORDER BY name ASC;";
       $query = mysqli_query($this->getConn(),$sql);
       while($line = mysqli_fetch_assoc($query)){
          $name = $line["name"];
@@ -78,7 +78,7 @@ class Crud extends Database{
 
      }
      public function viewEdit($user){
-      $sql = "SELECT * FROM contacts WHERE user='$user';";
+      $sql = "SELECT * FROM contacts WHERE user='$user' ORDER BY name ASC;";
       $query = mysqli_query($this->getConn(),$sql);
       while($line = mysqli_fetch_assoc($query)){
          $name = $line["name"];

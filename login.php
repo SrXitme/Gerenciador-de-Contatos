@@ -14,7 +14,7 @@ if(isset($_POST["btn-login"])){
 <html>
 <head>
   <meta charset="UTF-8">
-  <title>Minha página</title>
+  <title>Login</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="css/style.css" type="text/css" media="all" />
 </head>

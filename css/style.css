@@ -17,7 +17,8 @@ body{
 }
 header{
   margin: auto;
-  width: 305px;
+  width: 90px;
+  margin-bottom: 20px;
   
     
 }
@@ -134,8 +135,9 @@ span{
 
 
 .generic{
-   width: 200px; 
-   height: 200px;
+    margin: auto;
+    width: 70px;
+    height: 70px;
 }
 
 section{
