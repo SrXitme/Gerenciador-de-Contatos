@@ -34,7 +34,7 @@ if (isset($_POST["btn-create"])) {
     <main>
       <div class="img">
         <img src="assets/images/user.png" alt="" />
-        <input type="file">
+        
       </div>
 
       <p>Nome</p>
