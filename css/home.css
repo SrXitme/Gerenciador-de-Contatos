@@ -1,0 +1,107 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    color: white;
+    font-family: Arial;
+}
+body{
+  background-color:  #1B1924;  
+    
+}
+
+header{
+  background-color:  #16151D;  
+  padding: 10px; 
+  margin: auto;
+}
+#title{
+   font-size: 1.5em; 
+   padding: 10px;
+   font-weight: bold;
+    
+    
+}
+input{
+   width: 100%; 
+   border: none;
+   border-radius: 3px;
+   padding: 15px;
+   background-color: #24243C;
+   outline: none;
+}
+
+.generic{
+   margin: auto;
+   width: 90%;
+   
+    
+}
+.icons{
+    width: 25px;
+    height: 25px;
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+.items{
+  
+  display: flex;  
+  align-items: center;
+  margin-bottom: 10px;
+    
+}
+.icons-right{
+    position: absolute;
+    right: 0;
+}
+.search{
+   display: flex; 
+   align-items: center;
+   margin-bottom: 50px;
+   border-radius: 3px;
+   background-color: #24243C;
+   
+    
+}
+.contacts{
+  margin: auto;  
+  width: 70%;
+  display: flex;
+  align-items: center;
+  margin-top: 30px;
+}
+.photo-profile{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    
+    
+}
+#number{
+    padding: 0px;
+    color:  #8686B2;
+    font-size: 14px;
+    
+}
+.datas{
+    margin-left: 10px;
+}
+#name-contact{
+    font-size: 1.3em;
+    font-weight: bold;
+    
+}
+.iconsd{
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+
+
+}
+.delete{
+    position: absolute;
+    right: 0;
+    
+    
+}

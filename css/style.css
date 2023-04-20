@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra&family=Inter&family=Poppins&display=swap');
+*{
+    
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+}
+
+body{
+  
+  
+  background-color: #101010;
+  
+  
+}
+header{
+  margin: auto;
+  width: 305px;
+  
+    
+}
+h1{
+    color:white;
+    padding: 2px;
+    margin: 10px;
+    text-align: center;
+    font-size: 4.5em;
+}
+
+.home{
+    width: 70%;
+    color: white;
+    margin: auto;
+    font-size: 1.5em;
+    font-family: arial;
+    
+    border-radius: 10px;
+    padding: 10px;
+    
+}
+button{
+    margin-top:10px;
+    border: none;
+    border-radius:10px;
+    padding: 15px;
+    color: white;
+    background-color: #6c5ce7;
+    font-size: 1.3rem;
+    
+}
+button:hover{
+    background-color: gray;
+}
+.container{
+    margin: auto;
+    text-align: center;
+    border: 2px solid purple;
+    border-radius: 10px;
+    width: 70%;
+    color: white;
+    padding: 10px;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+}
+.pq{
+    font-size: 2rem;
+    text-align: center;
+    padding: 10px;
+    color: white;
+    font-weight: bold;
+    margin-top: 100px;
+}
+img{
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+}
+.text-c{
+    
+    font-weight: bolder;
+    margin-left: 10px;
+    font-family: 'Alkatra', cursive;
+}
+footer{
+    width: 100%;
+    background-color: #202024;
+    text-align: center;
+    height: 100px;
+    margin-top: 20px;
+}
+ #logo{
+    width: 190px;
+    height: 80px;
+    margin-left: 30%;
+}
+#generic{
+    height: 90px;
+    width: 90px;
+    padding: 0px;
+    
+}
+span{
+    color: yellow;
+}
+.f{
+    font-family: Times New Roman;
+}
+.card{
+    width: 70%;
+    border-radius: 10px;
+    background-color: #202024;
+    margin: auto;
+    padding: 10px;
+    color: #dfe6e9;
+    
+    border-top: 20px solid purple;
+    margin-bottom: 20px;
+}
+.containerX{
+    margin: auto;
+    text-align: center;
+    
+    border-radius: 10px;
+    width: 100%;
+    color: #dfe6e9;
+    padding: 10px;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+}
+
+
+.generic{
+   width: 200px; 
+   height: 200px;
+}
+
+section{
+    width: 70%;
+    margin: auto;
+    
+}
+input{
+    border-radius: 7px;
+    padding: 10px;
+    border: none;
+    outline: none;
+    margin: 10px;
+    background-color: #202024;
+    width: 100%;
+    color: white;
+}
+
+
+#logar{
+    
+    margin:10px;
+    border: none;
+    border-radius:7px;
+    padding: 10px;
+    color: white;
+    background-color: #6c5ce7;
+    font-size: 1rem;
+    width: 100%
+    ;
+
+}
+    
+label{
+    margin:10px;
+    color: white;
+    margin-top: -30px;
+}
+.gen{
+   color: white; 
+    
+}
+a{
+    text-decoration: none;
+    margin-left: 5px;
+    color: cyan;
+}
+.pass-l{
+    font-size: 3.3em;
+    margin-top: -50px;
+    padding: 20px;
+}
+
+.erro{
+   background-color: #3D0200; 
+   color: red;
+   width: 250px;
+   text-align: center;
+   padding: 10px;
+   margin: auto;
+   border-radius: 10px;
+   font-family: Monospace;
+   visibility: hidden;
+    
+}
